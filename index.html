@@ -1,0 +1,103 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <title>Free Feature Films</title>
+        <link href="styles/piracy.css" rel="stylesheet" type="text/css" />
+    </head>
+    
+    <body>
+        <h1 class="title">Feature Films</h1>
+        <div class="blue-underline-one"><div></div></div>
+        <div class="blue-underline-two"><div></div></div>
+        <div class="blue-underline-three"><div></div></div>
+        
+        <div class="flexbox-rows">
+            <div class="row-one">
+                <h2 class="new-releases">New Releases:</h2>
+                <div class="list-new">
+                    <ul>
+                        <li>The Matrix Revolutions</li>
+                        <li>Return Of The King</li>
+                        <li>Cold Mountain</li>
+                    </ul>
+                </div>
+                <p class="celebrity-title">Celebrity Spotlight:</p>
+                <p class="celebrity-name">Nicole Kidman</p>
+            </div>
+            <div class="row-two">
+                <h3>TOP 10 MOST DOWNLOADED</h3>
+                <ol>
+                    <li>Return Of The King</li>
+                    <li>The Cat In The Hat</li>
+                    <li>The Matrix Revolutions</li>
+                    <li>Paycheck</li>
+                    <li>Cheaper By The Dozen</li>
+                    <li>Peter Pan</li>
+                    <li>Cold Mountain</li>
+                    <li>Master And Commander</li>
+                    <li>The Last Samaurai</li>
+                    <li>Mona Lisa Smile</li>
+                </ol>
+            </div>
+            <div class="row-three">
+                <div class="favourite-downloads">
+                    <h3>Download Your Favourite</h3>
+                    <ul>
+                        <li>Trailers</li>
+                        <li>Featurettes</li>
+                        <li>Movie Posters</li>
+                        <li>Celebrity Photos</li>
+                    </ul>
+                </div>
+                <div class="poll">
+                    <h3>Today's Celebrity Poll:</h3>
+                    <p>Who is your favourite Director?</p>
+                    <label><input type=radio name="fav">Steven Spielberg</label>
+                    <label><input type=radio name="fav">Martin Scorsese</label>
+                    <label><input type=radio name="fav">Clint Eastwood</label>
+                </div>
+            </div>
+        </div>
+        
+        <div class="genres">
+            <span class="genre-title">genres:</span>
+            <span class="spacer"></span>
+            <span class="item">DRAMA</span>
+            <span class="spacer"></span>
+            <span class="item">COMEDY</span>
+            <span class="spacer"></span>
+            <span class="item">ACTION</span>
+            <span class="spacer"></span>
+            <span class="item">HORROR</span>
+            <span class="spacer"></span>
+            <span class="item">WESTERN</span>
+            <span class="spacer"></span>
+            <span class="item">THRILLER</span>
+        </div>
+        
+        <div id="show-only">
+        
+            <div class="progress-bar">
+                <div class="progress-bar-outer">
+                    <div class="progress-bar-box-shadow">
+                        <div id="progress-bar-progress" style="width: 0%;"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="download">
+                <span class="hidden" id="download-cancelled">Download Cancelled</span>
+                <button id="download">DOWNLOAD</button>
+            </div>
+        
+        </div>
+        
+        <div id="download-done" class="hidden">
+            <h2>Your download is done: </h2>
+            <iframe width="1280" height="720" src="https://www.youtube-nocookie.com/embed/_FtE0S-IyY0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p><a href="https://git.dbuidl.com/Snaddyvitch-Dispenser/you-wouldnt-steal-a-website">Get the code for this site from Gitea</a></p>
+        </div>
+        
+        <script src="scripts/piracy.js"></script>
+    </body>
+</html>
